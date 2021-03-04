@@ -3,6 +3,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #f8f2ee;
 }
 section {
     width: 414px;
