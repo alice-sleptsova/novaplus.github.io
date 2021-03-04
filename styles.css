@@ -1,0 +1,39 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    width: 414px;
+}
+.photo {
+    display: flex;
+    text-align: center;
+    justify-content: center;  
+}
+ a {
+    -moz-transition: all 0.4s; 
+    -webkit-transition: all 0.4s;  
+    -ms-transition: all 0.4s;  
+    -o-transition: all 0.4s;  
+    transition: all 0.4s; 
+    opacity:1;
+    filter:alpha(opacity=100);
+    }
+     
+a:hover {
+    opacity:0.5;
+    filter:alpha(opacity=50);
+    }
+    
+a:active {
+    opacity:0.3;
+    filter:alpha(opacity=50);
+    }
+
+.video {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    }
